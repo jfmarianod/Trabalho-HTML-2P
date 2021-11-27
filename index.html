@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link dos icones -->
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Bolo de Cria</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hamburguer"><!-- linhas do menu -->
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+        <header>
+            <div class="img-wrapper" id="home"><!-- imagem de fundo -->
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            
+            <div class="banner"><!-- texto do inicio da pagina -->
+                <h1>Bolo de Cria</h1>
+                <p>Bolos, Doces e Salgados</p>
+                <button>Saiba Mais</button>
+            </div>
+        </header>
+        <div class="sidebar">
+            <nav>
+                <ul class="menu"><!-- itens do menu -->
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#sobre" class="menu-link">Sobre nós</a></li>
+                    <li class="menu-item"><a href="#produtos" class="menu-link">Produtos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Pedidos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media"><!-- link dos icones de rede social -->
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            
+
+        </div>
+        <div class="bg-text" id="sobre"><!-- texto de descricao -->
+            <h1>Sobre Nós</h1>
+            <p>Em 2020 nasceu o Bolo de Cria, fábrica de delícias.
+                 Com muito amor fabricamos produtos especiais, elaborados a partir de receitas exclusivas, 
+                 utilizando as melhores matérias-primas, com altíssimo padrão de higiene e com os mais avançados métodos de produção.
+                  Tudo isso sem perder sua característica artesanal.
+                   Nós da Bolo de Cria fazemos da qualidade dos nossos produtos o principal diferencial.</p>
+        </div>
+        
+        <div class="sessao-produtos" id="produtos">
+            <div class="produtos-header">
+              <h1>Produtos</h1>
+            </div>
+            <div class="produtos">
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/TORTA-ALEMA-DOCE-LEITE.jpg" alt="imagem do bolo 1" />
+                </div>
+                <div class="card-info">
+                  <h2>Tres Leches com Geleia de Frutas Vermelhas</h2>
+                  <h3>Este produto é entregue congelado.</h3>
+                  <p>Bolo branco super molhadinho com três leites (evaporado, condensado e creme de leite), com uma delicada camada de creme maravilha, geleia de frutas vermelhas, amêndoas picadas e coberta com chantilly.</p>
+                  <button class="btn1">Saiba Mais</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/TORTA-BEM-CASADO-COHOLATE-ALEVA.jpg" alt="imagem do bolo 2" />
+                </div>
+                <div class="card-info">
+                  <h2>Torta Bem Casado de Chocolate com Avelã</h2>
+                  <h3>Este produto é entregue congelado.</h3>
+                  <p>Finas camadas de pão de ló especial, recheadas com creme de chocolate com avelã, decorada com açúcar de confeiteiro.</p>
+                  <button class="btn2">Saiba Mais</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/TORTA-CHEESECAKE-FRUTAS-VERMELHAS.jpg" alt="imagem do bolo 3" />
+                </div>
+                <div class="card-info">
+                  <h2>Torta Cheesecake de Frutas Vermelhas</h2>
+                  <h3>Este produto é entregue congelado.</h3>
+                  <p>Base de biscoito, leve creme a base de requeijão, coberta com geleia de frutas vermelhas.</p>
+                  <button class="btn3">Saiba Mais</button>
+                </div>
+              </div>
+            </div>   
+    </div>
+  <section class="sessao-pedidos" id="contato">
+    <div class="pedido-wrapper">
+      <div class="pedido-left"></div>
+      <div class="pedido-right">
+        <h1>Contato</h1>
+        <form action="">
+          <div class="input-group">
+            <input type="text" class="field" id="nome">
+            <label for="nome" class="field-label">Nome</label>
+          </div>
+          <div class="input-group">
+            <input type="email" class="field" id="email">
+            <label for="email" class="field-label">E-mail</label>
+          </div>
+          <div class="input-group">
+            <input type="tel" class="field" id="tel">
+            <label for="tel" class="field-label">Telefone</label>
+          </div>
+          <button type="submit" class="btn-submit">Enviar</button>
+          
+        </form>
+      </div>
+  </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <p>
+        Copyrights &copy; 2020, BOLO DE CRIA - Todos os Direitos Reservados
+      </p>
+      <div class="social-list">
+        <ul>
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </footer>
+</body>
+<script src="script.js"></script>
+<!-- chama o scrip.js -->
+</html>

@@ -1,0 +1,19 @@
+Fonte:
+fonts.google.com
+Incones:
+https://fontawesome.com
+Gerador de Incones:
+https://favicon.io
+Imagens:
+https://unsplash.com
+https://nappy.co/
+Cores:
+https://uigradients.com
+
+      Selecione o produto<select name="select-produto">
+              <option value="bolo1">Tres Leches com Geleia de Frutas Vermelhas</option>
+              <option value="bolo2">Torta Bem Casado de Chocolate com Avelã</option>
+              <option value="bolo3">Torta Cheesecake de Frutas Vermelhas</option>
+
+
+<div class="row-bg-wrap" data-bg-animation="none"><div class="inner-wrap"><div class="row-bg using-bg-color" style="background-color: #1e1e1e; "></div></div><div class="row-bg-overlay" style="background-color:#000000;  opacity: 0.95; "></div></div>
